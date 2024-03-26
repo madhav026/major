@@ -1,0 +1,23 @@
+/* src/components/TeacherSection.css */
+
+.teacher-section {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .teacher-note {
+    margin-bottom: 20px;
+  }
+  
+  .teacher-note img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .teacher-note input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,55 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background:#eed202;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    
+}
+.imagetag{
+    display:flex;
+    align-items:center;
+   
+}
+.digihead{
+    padding-left: 10px;
+}
+img{
+    height:60px;
+    width:60px;
+    /* border-radius:50%; */
+
+}
+.navbar-logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-item {
+    margin: 5;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #F5F5DC;
+        color:#eed202;
+    }
+}

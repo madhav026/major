@@ -1,0 +1,89 @@
+/* src/StudentSection.css */
+
+.student-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Set minimum height to full viewport height */
+    background-color: #f4f4f4; /* Optional: Add a background color */
+}
+
+.student-section {
+    margin-top:10px;
+    width: 40%; /* Set the width of the student section */
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;/* src/StudentSection.css */
+
+    .student-section-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+    }
+    
+    .student-section {
+        width: 80%;
+        padding: 20px;
+        border: 1px solid #cccccc;
+        border-radius: 8px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+.student-details {
+        flex: 1;
+    }
+    
+    .exam-button {
+        flex-shrink: 0;
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: #eed202;
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.student-details {
+    /* Add any additional styling if necessary */
+}
+
+.exam-button {
+    margin-top: 20px;
+    /* Add any additional styling if necessary */
+}
+
+button {
+    padding: 10px 20px;
+    background-color:#eed202 ;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
